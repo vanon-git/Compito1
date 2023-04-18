@@ -1,6 +1,7 @@
 body{
-      background-color:fuchsia;
-      font-family: Arial,sans-serif;
+      background-color:white;
+      font-family: Century Gothic;
+      font-style: 
       }
 .header{
     
@@ -41,7 +42,8 @@ body{
     margin:auto;
     text-align: center;
     align-content: center;
-    background: white;
+    background:#00EE76;
+;
     /*background-image: linear-gradient(to bottom left, white, skiblue);*/
     }
 
@@ -62,15 +64,27 @@ body{
     height:100px;
         
     }
+.img2{
+    border-radius: 50%;
+    margin:auto;
+    width: 100px;
+    height:100px;
+    float: right;
+
+        
+    }
+h2{
+    font-family: Century Gothic;  
+}
 .menu-display {        
     display: flex;
     }
 .menu-link {
-    margin-top:5px;
+    margin:auto;
     text-align: center;
     align-content: center;
     background-color:lightgreen;
-    border:5px solid black;
+    border:5px solid black; 
     padding:10px;
     width:150px
     }
@@ -78,3 +92,7 @@ body{
     background-color: #51caf3;
     color: #fff;
     }
+p{
+     font-family: Century Gothic;
+     font-size:18px;
+}
