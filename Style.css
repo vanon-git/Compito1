@@ -6,7 +6,7 @@ body{
 .header{
     overflow: auto;
     border-radius: 10px 10px 0px 0px;
-    width: 57.5%;
+    width: 55%;
     height:10%;
     margin:auto;
     text-align: center;
@@ -16,7 +16,7 @@ body{
     
 .header1{
     border-radius: 10px 10px 10px 10px;
-    width: 19%;
+    width: 19.25%;
     height:35%;
     margin:auto;
     text-align: center;
@@ -28,7 +28,7 @@ body{
     
 .header2{
     border-radius: 10px 10px 10px 10px;
-    width: 19%;
+    width: 19.25%;
     height:35%;
     margin:auto;
     text-align: center;
@@ -39,7 +39,7 @@ body{
     }
     
 .center{
-    width: 57.5%;
+    width: 55%;
     height:35%;
     overflow: auto;
     margin:auto;
@@ -50,7 +50,7 @@ body{
 
 .footer{
     border-radius: 0px 0px 10px 10px;
-    width: 57.5%;
+    width: 55%;
     height:10%;
     overflow: auto;
     margin:auto;
@@ -62,15 +62,15 @@ body{
 .img{
     border-radius: 10px 10px 10px 10px;
     margin:auto;
-    width: 46%;
-    height:46%;      
+    width: 49.2%;
+    height:49.2%;      
     }
     
 .img2{
     border-radius: 50%;
     margin:auto;
-    width: 7.5%;
-    height:7.5%;
+    width: 8.5%;
+    height:8.5%;
     float: right;   
     }
     
@@ -78,18 +78,16 @@ h2{
     font-family: Century Gothic;  
   }
 
-.menu-display {        
-    display: flex;
-    }
-    
 .menu-link {
+    display:inline-block;
     margin:auto;
+    overflow: auto;
     text-align: center;
     align-content: center;
     background-color:lightgreen;
     border:5px solid black; 
     padding:10px;
-    width:150px 
+    width:175px 
     }
     
 .menu-link:hover {
